@@ -76,7 +76,7 @@ while True:
             else:
                 engine.say("Not a part of this class")
     cv2.imshow("attendence system", frame)
-    if cv2.waitKey(1) & 0xFF == ord('q'):
+    if cv2.waitKey(5) & 0xFF == ord('q'):
         break
 
 video_capture.release()
